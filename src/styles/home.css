@@ -1,0 +1,124 @@
+
+.container {
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+
+/*Header-Menu*/
+
+
+.header {
+      
+    width: 100%;
+    max-height: 117px;
+    margin-bottom: 10px;
+}
+
+.header .menu {
+    overflow: hidden;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.menu a {
+    display: block;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0 1.2rem; /*primeiro top e bottom, depois right e left*/    
+    text-decoration: none;
+    color: #363434;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s;
+}
+
+
+/*Falta Adicionar a funcionalidade de quando tiver com alguma pagina selecionada, ter o sublinhado embaixo*/
+
+.menu a + a:hover{
+    border-bottom: 2px solid #363434 ;
+}
+
+
+#logoImg img {
+    max-width: 300px;
+}
+
+
+
+/*SlideContainer*/
+
+.slideArea {
+    max-width: 1100px;
+    max-height: 456px;
+   
+}
+
+.slideContainer {
+    width: 100%;
+    background-image: url('/src/images/background-blue.png');
+    background-repeat: no-repeat;
+    height: 456px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+
+
+.slideBackgroundContainer img {
+    width: 100%;
+}
+
+.dataLivro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dataLivro .capaLivro img {
+    max-width: 314px;
+    max-height: 314px;
+}
+
+.dataLivro .livroAcesso {
+
+    text-align: center;
+}
+
+.dataLivro .livroAcesso p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 444px;
+    margin-bottom: 10px;
+}
+
+.acessarLivro {    
+    padding: 5px 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    background-color: #e21400;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.acessarLivro:hover {
+    background-color: #363434;
+}
+
+
