@@ -1,12 +1,13 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleRight, faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+
+
 import logoImg from '../images/nsoramma-editora.png'
 import '../styles/home.css'
 
 
-
-import backgroundBlue from '../images/background-blue.png'
 import mundoPai from '../images/mundopai.png'
-
 
 
 function Home() {
@@ -26,11 +27,11 @@ function Home() {
                     <a href='#' id='logoImg' >
                         <img src={logoImg}></img>
                     </a>
-                    <a href='#' >Loja</a>
-                    <a href='#' >Livros</a>
-                    <a href='#'>Sobre</a>
-                    <a href='#'>Autores</a>
-                    <a href='#'>Contato</a>
+                    <a href='' >Loja</a>
+                    <a href='' >Livros</a>
+                    <a href=''>Sobre</a>
+                    <a href=''>Autores</a>
+                    <a href=''>Contato</a>
 
 
 
@@ -41,20 +42,21 @@ function Home() {
 
             </div>
 
-
+            
             <div className='slideArea'>
 
-                <div className='slideContainer'>
+                <div className='slideContainer'/*Falta adicionar função de passar o slide*/ >
 
-                    <div>
-                            
+                    <div className='backSlide'>                        
+                      
+                    <FontAwesomeIcon icon={faAngleLeft}/>
                     </div>
 
 
                     <div className='dataLivro'>
 
                         <div className='capaLivro'>
-                            <img src={mundoPai}></img>
+                            <img src={mundoPai} alt='MundoPai'></img>
                         </div>
 
                         <div className='livroAcesso'>
@@ -66,11 +68,23 @@ function Home() {
                     </div>
 
 
-                    <div>
+                    <div className='nextSlide'>
+
+                    <FontAwesomeIcon icon={faAngleRight}/>
 
                     </div>
 
-
+                    <div className='slideCounter'>
+                        <div className='active'>
+                                
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
 
                 </div>
 

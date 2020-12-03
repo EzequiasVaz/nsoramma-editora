@@ -13,7 +13,6 @@
 
 
 .header {
-      
     width: 100%;
     max-height: 117px;
     margin-bottom: 10px;
@@ -62,7 +61,7 @@
 .slideArea {
     max-width: 1100px;
     max-height: 456px;
-   
+    position: relative;
 }
 
 .slideContainer {
@@ -73,7 +72,8 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-around;
+    align-items: center; 
 }
 
 
@@ -81,6 +81,45 @@
 .slideBackgroundContainer img {
     width: 100%;
 }
+
+
+/*Passadores slide e counter*/
+
+.backSlide, .nextSlide {
+    font-size: 80px;
+    color: #e21400;
+    cursor: pointer;
+}
+
+.backSlide:hover, .nextSlide:hover {
+    color: #363434;
+}
+
+.slideCounter {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.slideCounter > div {
+    width: 19px;
+    height: 19px;
+    border: 1px solid #e21400;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    width: 19px;
+    height: 19px;
+    background-color: #e21400;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/*Livros*/
 
 .dataLivro {
     display: flex;
