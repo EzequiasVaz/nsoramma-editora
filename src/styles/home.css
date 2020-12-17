@@ -1,68 +1,9 @@
 
-.container {
-    height: 100%;
-    max-width: 1100px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-
-
-/*Header-Menu*/
-
-
-.header {
-    width: 100%;
-    max-height: 117px;
-    z-index: 1;
-     
-}
-
-.header .menu {
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-
-
-.menu a {
-    display: block;
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    padding: 0 1.2rem; /*primeiro top e bottom, depois right e left*/    
-    text-decoration: none;
-    color: #363434;
-    border-bottom: 2px solid transparent;
-    transition: border 0.2s;
-}
-
-
-/*Falta Adicionar a funcionalidade de quando tiver com alguma pagina selecionada, ter o sublinhado embaixo*/
-
-.menu div + div:hover:after{
-    content: "";
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    border-bottom: 2px solid #363434 ;
-}
-
-
-#logoImg img {
-    max-width: 300px;
-}
-
-
 
 /*SlideContainer*/
 
 .slideArea {
+    margin-top: 127px;
     max-width: 1100px;
     max-height: 456px;
     position: relative;
@@ -115,7 +56,7 @@
     cursor: pointer;
 }
 
-.active {
+.activeSlide {
     width: 19px;
     height: 19px;
     background-color: #e21400;
@@ -193,61 +134,7 @@
     justify-content: center;
 }
 
-/*Books Card*/
 
-.bookCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 30px;   
-}
-
-.bookImg {
-    max-width: 232px;
-    max-height: 252px;   
-}
-
-.bookImg img {
-    width: 100%;
-}
-
-.tituloBook h1 {
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.precoReal {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 15px;
-    color: #e21400;
-    text-align: center;
-}
-
-.precoPromocional {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 15px;
-    color: #009933;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-.btnComprar {
-    padding: 5px 20px;
-    border:none;
-    background-color: #e21400;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    cursor: pointer;    
-    transition: background 0.5s;
-}
-
-.btnComprar:hover {
-    background-color: #363434;
-
-}
 
 
 /*Destaque Area*/
@@ -271,87 +158,7 @@
 }
 
 
-/*Footer*/
 
-footer {
-    margin-top: 100px;
-    max-width: 1100px;
-    background-image: url('../images/footer-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #363434;
-    display: flex;  
-    flex-direction: column;
-}
 
-.headerFooter {
-    text-align: center;
-    margin: 0 auto;
-}
 
-.headerFooter p {
-    max-width: 496px;
-    font-size: 1.3rem;
-    font-weight: 400;
-}
-
-.footer {
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-}
-
-.socialMedia {
-    width: 50%;
-    text-align: center;
-}
-
-.socialMedia p {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
-.socialMediaLinks {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 200px;
-    margin: 0 auto;
-}
-
-.socialMediaLinks > div {
-    background-color: #363434;
-    border-radius: 50%;
-    width: 53px;
-    height: 53px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.facebookLink a, .pinterestLink a, .instagramLink a {
-    color: #fff;
-    font-size: 30px;
-    transition: color .5s;
-}
-
-.facebookLink a:hover , .pinterestLink a:hover, .instagramLink a:hover {    
-    color: #b4b4b4;
-}
-
-.formasPagamentos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.formasPagamentos p{
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.formasPagamentos img {
-    max-width: 50%;
-}
 

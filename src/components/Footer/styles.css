@@ -1,0 +1,81 @@
+footer {
+    margin-top: 100px;
+    max-width: 1100px;
+    background-image: url('/src/images/footer-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #363434;
+    display: flex;  
+    flex-direction: column;
+}
+
+.headerFooter {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.headerFooter p {
+    max-width: 496px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.socialMedia {
+    width: 50%;
+    text-align: center;
+}
+
+.socialMedia p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.socialMediaLinks {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.socialMediaLinks > div {
+    background-color: #363434;
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebookLink a, .pinterestLink a, .instagramLink a {
+    color: #fff;
+    font-size: 30px;
+    transition: color .5s;
+}
+
+.facebookLink a:hover , .pinterestLink a:hover, .instagramLink a:hover {    
+    color: #b4b4b4;
+}
+
+.formasPagamentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formasPagamentos p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.formasPagamentos img {
+    max-width: 50%;
+}

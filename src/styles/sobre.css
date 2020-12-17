@@ -1,0 +1,42 @@
+
+.main {
+    text-align: center;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.main p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 40px;   
+}
+
+
+.aEditora {
+    margin-top: 200px;
+}
+
+.aEditora img {
+    max-width: 390px;
+}
+
+.descNomeEditora{
+    margin-top: 90px;
+}
+
+
+.descNomeEditora img {
+    max-width: 110px;
+}
+
+
+.enderecoEditora {
+    margin-top: 90px;
+}
+
+
+.enderecoEditora img {
+    max-width: 97px;
+}

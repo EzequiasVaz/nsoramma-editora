@@ -1,0 +1,71 @@
+
+.pageTitle {
+    max-width: 700px;
+    margin: 180px auto 0 auto;
+}
+
+.pageTitle p {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.pageTitle div {
+    border-bottom: 1px solid #363636;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.formulario {   
+    border: 1px solid #363636;
+    padding: 20px;
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+}
+
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.inputBlock label {    
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.inputBlock input, .inputBlock textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px dashed #363636;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.inputBlock textarea {
+    height: 150px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+
+.formulario button {
+        padding: 15px 30px;
+        border:none;
+        background-color: #e21400;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 300;
+        cursor: pointer;    
+        transition: background 0.5s;
+        width: 50%;
+}
+
+.formulario button:hover {
+
+    background-color: #363434;
+}

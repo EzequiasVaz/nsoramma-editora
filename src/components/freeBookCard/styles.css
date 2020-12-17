@@ -1,0 +1,70 @@
+.freeBookCard {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e21400;
+    max-width: 869px;
+    max-height: 340px;
+    padding: 10px;
+    margin: 0 auto 63px auto;
+}
+
+.freeBookCard .left {
+
+    width: 100%;
+
+
+}
+
+.freeBookCard .left .bookImg {
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.freeBookCard .left .bookImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.right .descBook {
+
+    margin-bottom: 72px;
+}
+
+.right .descBook p {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btnDownloadPDF, .btnReadOnline{
+    
+        padding: 15px 30px;
+        border:none;
+        background-color: #e21400;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 300;
+        cursor: pointer;    
+        transition: background 0.5s;
+    
+    
+    
+
+}
+
+.btnDownloadPDF:hover, .btnReadOnline:hover {
+    background-color: #363434;
+
+}
+
+
+
+
+
+

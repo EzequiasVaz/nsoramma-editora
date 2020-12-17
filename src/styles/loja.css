@@ -1,0 +1,62 @@
+.headerLoja {
+   margin-top: 150px;
+   margin-bottom: 30px;
+   width: 100%; 
+}
+
+.menuLoja {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userProfile, .userShoppingBasket {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    color: #363636;
+    border-radius: 25%;
+    transition: .5s;
+    margin-right: 10px;
+}
+
+.userProfile:hover, .userShoppingBasket:hover {
+    
+    background-color: #363636;
+    color: #fff;
+    border-radius: 25%;
+}
+
+.ordenacao {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.ordenacaoLista {
+
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #363636;
+}
+
+.ordenacaoLista label {
+    margin-right: 10px;
+}
+
+.ordenacaoLista select {
+    border: #363636 1px solid;
+}
+
+.lojaItens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    row-gap: 70px;
+}
+
+
