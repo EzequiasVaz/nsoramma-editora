@@ -9,7 +9,7 @@ function BookCard() {
 
     return (
 
-        <div className='bookCard'>
+        <div className='bookCard' >
 
             <div className='bookImg'>
                 <img src={mundoPai}></img>

@@ -49,7 +49,7 @@ function Livros() {
 
             <div className='freeBooksList'>
 
-                {freeBookItem.map( Book => <FreeBookCard/>)/* cadastrar os livros*/ }
+                {freeBookItem.map( () => <FreeBookCard />)/* cadastrar os livros*/ }
                 
                 
 

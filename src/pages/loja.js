@@ -65,7 +65,7 @@ function Loja() {
 
             <div className='lojaItens'>
 
-                {lojaItem.map(book => <BookCard key={book.id} />)}
+                {lojaItem.map(() => <BookCard />)}
 
             </div>
 

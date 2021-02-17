@@ -89,7 +89,7 @@ function Home() {
                 <div className='lancamentosItens'>
 
 
-                    {lancamentoItem.map(book => <BookCard key={book.id}/>)}
+                    {lancamentoItem.map(() => <BookCard/>)}
 
 
                 </div>
